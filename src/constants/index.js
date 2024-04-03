@@ -6,7 +6,7 @@ import project3 from "../assets/poker.jpg"
 
 export const HERO_CONTENT = `I'm a passionate developer with almost two years of hands-on experience crafting robust and scalable web applications. I specialize in MongoDB, React, Node.js, Express.js, and Next.js. My goal is to leverage this expertise to create innovative solutions that drive business growth and deliver exceptional user experiences. Beyond coding, I'm also a part-time blogger, sharing insights and experiences within the tech industry.`;
 
-export const ABOUT_TEXT = `I'm a seasoned web developer with nearly two years of hands-on experience in crafting dynamic web solutions. Proficient in React.js, Node.js, Express.js, MongoDB, and Next.js, I'm deeply passionate about pushing the boundaries of web development. My enthusiasm for the field extends to blogging, where I regularly share insights on diverse topics, aiming to inspire and educate fellow developers. Additionally, I actively contribute to open-source projects, collaborating with peers to drive innovation and foster growth within the community.`;
+export const ABOUT_TEXT = `Hi 😀, I'm Ayush, a 20 year old web developer with nearly two years of hands-on experience in crafting dynamic web solutions. Proficient in React.js, Node.js, Express.js, MongoDB, and Next.js, I'm passionate about pushing the boundaries of web development. My enthusiasm for the field extends to blogging, where I regularly share insights on diverse topics, aiming to inspire and educate fellow developers. Additionally, I actively contribute to open-source projects, collaborating with peers to drive innovation and foster growth within the community.`;
 
 export const EXPERIENCES = [
   {
