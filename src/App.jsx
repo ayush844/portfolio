@@ -6,8 +6,24 @@ import Technology from './Components/Technology'
 import Experience from './Components/Experience'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
+import Lenis from '@studio-freight/lenis'
 
 const App = () => {
+
+  const lenis = new Lenis()
+
+  lenis.on('scroll', (e) => {
+    console.log(e)
+  })
+  
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
+  
+  requestAnimationFrame(raf)
+  
+
   return (
     <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-purple-900 selection:text-pink-700'>
       <div className="fixed top-0 -z-10 h-full w-full">
